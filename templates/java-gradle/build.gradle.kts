@@ -7,9 +7,10 @@ plugins {
 
 repositories {
   mavenCentral()
+  mavenLocal()
 }
 
-val restateVersion = "0.9.2"
+val restateVersion = "0.10.0-SNAPSHOT"
 
 dependencies {
   annotationProcessor("dev.restate:sdk-api-gen:$restateVersion")
@@ -22,9 +23,10 @@ dependencies {
 
   // Logging (optional)
   implementation("org.apache.logging.log4j:log4j-core:2.20.0")
+
 }
 
 // Set main class
 application {
-  mainClass.set("my.example.Greeter")
+  mainClass.set("my.example.Benchy")
 }

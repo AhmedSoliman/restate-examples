@@ -1,5 +1,10 @@
 # Compiled class file
 *.class
+*.classpath
+*.factorypath
+*.project
+*.settings
+kls_database.db
 
 # Log file
 *.log
